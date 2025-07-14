@@ -1,1 +1,4 @@
 .Taskmaster/*
+.taskmaster/*
+taskmaster/__pycache__/
+taskmaster/__pycache__/*
