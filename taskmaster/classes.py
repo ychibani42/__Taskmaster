@@ -37,5 +37,3 @@ class Config:
 
     def loadIniConfig(self):
         return
-
-Config("foo.yaml", is_yaml=str.find(.yml))
