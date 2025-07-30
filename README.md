@@ -10,4 +10,4 @@ taskmasterd
 
 taskmasterctl
     - Shell CLI to communicate with taskmasterd with UNIX Socket
-    ![alt text](image.png)
+    ![alt text](assets/image.png)
