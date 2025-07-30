@@ -1,4 +1,4 @@
-from  import Config
+from setup import Config
 
 
 def test_yaml_config():
