@@ -1,17 +1,7 @@
 import subprocess
 # from subprocess import Popen, PIPE
 import time
-from classes import ProgramConfig
-import yaml
-
-
-def initConfFile(path: str) -> ProgramConfig:
-    if path.find(".yml"):
-        with open(path) as file:
-            try:
-                yaml.safe_load(file)
-            except yaml.YAMLError as e:
-                print(e)
+from classes import Config
 
 
 def startProcess() -> None:
@@ -22,7 +12,8 @@ def startProcess() -> None:
 
 def main():
     # path = searchFilePath('.')
-    config: ProgramConfig = initConfFile(path="./foo.yml")
+    config = Config(path="./foo.yml")
+    print(config.config)
     # startProcess(config)
 
 
